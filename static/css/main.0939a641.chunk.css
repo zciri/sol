@@ -7,6 +7,30 @@ body {
     color: #fff
 }
 
+.left {
+    margin-top: 50px;
+    padding: 10px;
+    float: left;
+    width: 60%;
+    height: 60%
+}
+
+.right {
+    margin-top: 50px;
+    padding: 10px;
+    float: left;
+    width: 35%;
+    height: 35%
+}
+
+@media screen and (max-width: 800px) {
+    .left,
+    .right {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
 }
@@ -35,7 +59,7 @@ code {
 
 .header {
     padding: 0px;
-    text-align: left;
+    text-align: right;
     color: black;
     font-size: 0px;
 }
