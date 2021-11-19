@@ -3,7 +3,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #022713;
+    background-color: #6ebbe8;
     color: #fff
 }
 
@@ -15,5 +15,10 @@ code {
     text-align: center
 }
 
-
-/*# sourceMappingURL=main.0939a641.chunk.css.map */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 50%;
+}
